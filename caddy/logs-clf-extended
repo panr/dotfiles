@@ -1,0 +1,12 @@
+(logs) {
+	log {
+		output file /var/log/caddy/{args[0]}.log {
+			roll_keep_size 100M
+			roll_keep_days 30
+		}
+		format transform `{request>headers>X-Forwarded-For>[0]:request>remote_ip} {user_id} [{ts}] "{request>method} {request>uri} {request>proto}" {status} {size} {duration} "{request>headers>Referer}" "{request>headers>User-Agent}"` {
+			time_format "02/Jan/2006:15:04:05 -0700"
+		}
+	}
+}
+

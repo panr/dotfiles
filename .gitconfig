@@ -1,0 +1,21 @@
+[user]
+	name = panr
+[alias]
+	pr = pull --rebase
+	co = checkout
+	acm = !git add . && git commit -m
+	update = remote update origin --prune
+	today = log --since="6am"
+	root = rev-parse --show-toplevel
+	st = status
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = master

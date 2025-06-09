@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="canonical" href="">
+		<link rel="shortcut icon" href="favicon.png">
+		<meta property="og:locale" content="en">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="">
+		<meta property="og:description" content="">
+		<meta property="og:url" content="">
+		<meta property="og:site_name" content="">
+		<meta property="og:image" content="">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+
+		<style>
+			* { box-sizing: border-box; }
+			body { padding: 0; margin: 0; }
+			img { max-width: 100%; }
+		</style>
+  </head>
+
+  <body>
+		<header></header>
+		<main></main>
+		<footer></footer>
+  </body>
+</html>
+
