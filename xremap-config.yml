@@ -1,0 +1,53 @@
+# Key names: https://github.com/emberian/evdev/blob/master/src/scancodes.rs#L26-L572
+# Aliases: https://github.com/k0kubun/xremap/blob/master/src/config/key.rs
+keypress_delay_ms: 50
+
+modmap:
+  - name: 'Meta and Left Alt as Right Control [LEOPOLD]'
+    device:
+      only: ['LEOPOLD Mini Keyboard']
+    remap:
+      # Remember about toggled pin at the bottom of the keyboard
+      KEY_LEFTMETA: KEY_RIGHTCTRL
+      KEY_LEFTCTRL: KEY_CAPSLOCK
+      KEY_CAPSLOCK: KEY_LEFTCTRL
+  - name: 'Meta and Left Alt as Right Control [Laptop]'
+    device:
+      only: ['/dev/input/event0']
+    remap:
+      KEY_LEFTALT: KEY_LEFTMETA
+      KEY_LEFTMETA: KEY_LEFTALT
+      KEY_LEFTALT: KEY_RIGHTCTRL
+keymap:
+  - name: Global
+    exact_match: false
+    remap:
+      KEY_RIGHTCTRL-Left: Home # Start of line
+      KEY_RIGHTCTRL-Right: End # END OF LINE
+      KEY_RIGHTCTRL-Up: PageUp
+      KEY_RIGHTCTRL-Down: PageDown
+
+      KEY_RIGHTCTRL-A: Ctrl-A
+      KEY_RIGHTCTRL-S: Ctrl-S
+      KEY_RIGHTCTRL-F: Ctrl-F
+      KEY_RIGHTCTRL-Z: Ctrl-Z
+      KEY_RIGHTCTRL-X: Ctrl-X
+      KEY_RIGHTCTRL-C: Ctrl-C
+      KEY_RIGHTCTRL-V: Ctrl-V
+      KEY_RIGHTCTRL-C: Ctrl-Insert # Paste to terminal
+      KEY_RIGHTCTRL-P: Ctrl-P
+      
+      # Window switching
+      KEY_RIGHTCTRL-KEY_TAB: Alt-Tab
+      KEY_RIGHTCTRL-KEY_GRAVE: Alt-Grave # Switch between windows of the same app
+      
+      # KWin
+      KEY_LEFTCTRL-KEY_LEFTALT-KEY_LEFT: Super-Left
+      KEY_LEFTCTRL-KEY_LEFTALT-KEY_RIGHT: Super-Right
+      KEY_LEFTCTRL-KEY_LEFTALT-KEY_UP: Super-Up
+      KEY_LEFTCTRL-KEY_LEFTALT-KEY_DOWN: Super-Down
+      
+      # Print Screen
+      KEY_RIGHTCTRL-KEY_LEFTSHIFT-KEY_2: Super-Print # Print current window
+      KEY_RIGHTCTRL-KEY_LEFTSHIFT-KEY_3: Shift-Print # Print full-screen
+      KEY_RIGHTCTRL-KEY_LEFTSHIFT-KEY_4: Super-Shift-Print # Print area
