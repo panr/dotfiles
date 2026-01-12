@@ -34,7 +34,6 @@ keymap:
       KEY_RIGHTCTRL-X: Ctrl-X
       KEY_RIGHTCTRL-C: Ctrl-C
       KEY_RIGHTCTRL-V: Ctrl-V
-      KEY_RIGHTCTRL-C: Ctrl-Insert # Paste to terminal
       KEY_RIGHTCTRL-P: Ctrl-P
       
       # Window switching
