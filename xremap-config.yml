@@ -7,7 +7,7 @@ modmap:
     device:
       only: ['LEOPOLD Mini Keyboard']
     remap:
-      # Remember about toggled pin at the bottom of the keyboard
+      # Remember about the toggled pins [1,1,0,0] 
       KEY_LEFTMETA: KEY_RIGHTCTRL
       KEY_LEFTCTRL: KEY_CAPSLOCK
       KEY_CAPSLOCK: KEY_LEFTCTRL
