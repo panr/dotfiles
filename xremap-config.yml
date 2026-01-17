@@ -9,7 +9,7 @@ modmap:
     remap:
       # Remember about the toggled pins [1,1,0,0] 
       KEY_LEFTMETA: KEY_RIGHTCTRL
-      KEY_LEFTCTRL: KEY_CAPSLOCK
+        #KEY_LEFTCTRL: KEY_CAPSLOCK
       KEY_CAPSLOCK: KEY_LEFTCTRL
   - name: 'Meta and Left Alt as Right Control [Laptop]'
     device:
@@ -18,6 +18,7 @@ modmap:
       KEY_LEFTALT: KEY_LEFTMETA
       KEY_LEFTMETA: KEY_LEFTALT
       KEY_LEFTALT: KEY_RIGHTCTRL
+      KEY_CAPSLOCK: KEY_LEFTCTRL
 keymap:
   - name: Global
     exact_match: false
@@ -40,13 +41,14 @@ keymap:
       KEY_RIGHTCTRL-KEY_TAB: Alt-Tab
       KEY_RIGHTCTRL-KEY_GRAVE: Alt-Grave # Switch between windows of the same app
       
-      # KWin
-      KEY_LEFTCTRL-KEY_LEFTALT-KEY_LEFT: Super-Left
-      KEY_LEFTCTRL-KEY_LEFTALT-KEY_RIGHT: Super-Right
-      KEY_LEFTCTRL-KEY_LEFTALT-KEY_UP: Super-Up
-      KEY_LEFTCTRL-KEY_LEFTALT-KEY_DOWN: Super-Down
-      
       # Print Screen
       KEY_RIGHTCTRL-KEY_LEFTSHIFT-KEY_2: Super-Print # Print current window
       KEY_RIGHTCTRL-KEY_LEFTSHIFT-KEY_3: Shift-Print # Print full-screen
       KEY_RIGHTCTRL-KEY_LEFTSHIFT-KEY_4: Super-Shift-Print # Print area
+  - name: KWin
+    exact_match: true
+    remap:
+      KEY_LEFTCTRL-KEY_LEFTALT-KEY_LEFT: Super-Left
+      KEY_LEFTCTRL-KEY_LEFTALT-KEY_RIGHT: Super-Right
+      KEY_LEFTCTRL-KEY_LEFTALT-KEY_UP: Super-Up
+      KEY_LEFTCTRL-KEY_LEFTALT-KEY_DOWN: Super-Down
