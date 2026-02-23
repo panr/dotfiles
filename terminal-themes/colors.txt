@@ -1,0 +1,16 @@
+#000000
+#ff2f4b
+#00e400
+#ffce00
+#009eff
+#c961c7
+#00ccd4
+#bbbbbb
+#555555
+#ff6167
+#46f967
+#fedb67
+#67beff
+#ff55ff
+#55ffff
+#ffffff
