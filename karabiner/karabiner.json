@@ -1,0 +1,220 @@
+{
+    "global": { "check_for_updates_on_startup": false },
+    "profiles": [
+        {
+            "complex_modifications": {
+                "parameters": {
+                    "basic.simultaneous_threshold_milliseconds": 20,
+                    "basic.to_delayed_action_delay_milliseconds": 100,
+                    "basic.to_if_alone_timeout_milliseconds": 100,
+                    "basic.to_if_held_down_threshold_milliseconds": 100
+                },
+                "rules": [
+                    {
+                        "description": "Left ctrl + hjkl to arrow keys Vim",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "h",
+                                    "modifiers": {
+                                        "mandatory": ["left_control"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "home" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "mandatory": ["left_control"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "page_down" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": ["left_control"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "page_up" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": ["left_control"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [{ "key_code": "end" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Force Fn keys",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f1",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f1" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f2",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f2" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f3",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f3" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f4",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f4" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f5",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f5" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f6",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f6" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f7",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f7" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f8",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f8" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f9",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f9" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f10",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f10" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f11",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f11" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f12",
+                                    "modifiers": { "mandatory": ["right_command"] }
+                                },
+                                "to": [{ "key_code": "f12" }],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "devices": [
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 308,
+                        "vendor_id": 2131
+                    },
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "insert" },
+                            "to": [{ "consumer_key_code": "eject" }]
+                        },
+                        {
+                            "from": { "key_code": "right_control" },
+                            "to": [{ "key_code": "right_command" }]
+                        }
+                    ]
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 50475,
+                        "vendor_id": 1133
+                    },
+                    "ignore": true
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 49291,
+                        "vendor_id": 1133
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false
+                }
+            ],
+            "fn_function_keys": [
+                {
+                    "from": { "key_code": "f4" },
+                    "to": [{ "apple_vendor_keyboard_key_code": "dashboard" }]
+                },
+                {
+                    "from": { "key_code": "f5" },
+                    "to": [{ "apple_vendor_top_case_key_code": "illumination_down" }]
+                },
+                {
+                    "from": { "key_code": "f6" },
+                    "to": [{ "apple_vendor_top_case_key_code": "illumination_up" }]
+                }
+            ],
+            "name": "Leopold",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}

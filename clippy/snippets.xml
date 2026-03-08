@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>Emoji</title>
+		<snippets>
+			<snippet>
+				<title>(ﾉ◕ヮ◕)ﾉ *:･ﾟ✧</title>
+				<content>(ﾉ◕ヮ◕)ﾉ *:･ﾟ✧</content>
+			</snippet>
+			<snippet>
+				<title>ಠ_ಠ</title>
+				<content>ಠ_ಠ</content>
+			</snippet>
+			<snippet>
+				<title>¯\_(ツ)_/¯</title>
+				<content>¯\_(ツ)_/¯</content>
+			</snippet>
+			<snippet>
+				<title>(ノಠ益ಠ)ノ︵ ┻━┻</title>
+				<content>(ノಠ益ಠ)ノ︵ ┻━┻</content>
+			</snippet>
+			<snippet>
+				<title></title>
+				<content></content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Komendy</title>
+		<snippets>
+			<snippet>
+				<title>sips -z 600 600 *.jpg *.png</title>
+				<content>sips -z 600 600 *.jpg *.png</content>
+			</snippet>
+			<snippet>
+				<title>sips -Z 640 *.jpg</title>
+				<content>sips -Z 640 *.jpg</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Chars</title>
+		<snippets>
+			<snippet>
+				<title>Space (Unbreakable)</title>
+				<content>&amp;nbsp;</content>
+			</snippet>
+			<snippet>
+				<title>Hyphen (Unbreakable)</title>
+				<content>&amp;#8209;</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>

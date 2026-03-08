@@ -1,0 +1,101 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.2",
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xc08b",
+          "productName" : "G502 HERO Gaming Mouse",
+          "serialNumber" : "188D396E3931",
+          "vendorID" : "0x46d"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 1,
+        "disableAcceleration" : false,
+        "speed" : 0.066
+      },
+      "scrolling" : {
+        "acceleration" : 1,
+        "distance" : "auto",
+        "modifiers" : {
+          "vertical" : {
+            "command" : {
+              "type" : "zoom"
+            },
+            "control" : {
+              "scale" : 0.2,
+              "type" : "changeSpeed"
+            },
+            "shift" : {
+              "type" : "auto"
+            }
+          }
+        },
+        "speed" : {
+          "horizontal" : 60,
+          "vertical" : 15
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.apple.mail",
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xc08b",
+          "productName" : "G502 HERO Gaming Mouse",
+          "serialNumber" : "188D396E3931",
+          "vendorID" : "0x46d"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 12
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "org.mozilla.firefox",
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xc08b",
+          "productName" : "G502 HERO Gaming Mouse",
+          "serialNumber" : "188D396E3931",
+          "vendorID" : "0x46d"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "speed" : {
+          "vertical" : 60
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "trackpad",
+          "productID" : "0x281",
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "vendorID" : "0x5ac"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    }
+  ]
+}
