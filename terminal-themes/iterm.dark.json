@@ -6,7 +6,6 @@
     "Alpha Component" : 1,
     "Green Component" : 0.40297403931617737
   },
-  "Working Directory" : "\/Users\/radek\/Documents\/Git",
   "Prompt Before Closing 2" : false,
   "Selected Text Color" : {
     "Green Component" : 0,
@@ -72,7 +71,6 @@
     "Green Component" : 0.9268307089805603
   },
   "BM Growl" : true,
-  "AWDS Window Directory" : "\/Users\/radek\/git\/",
   "Icon" : 0,
   "Ansi 3 Color" : {
     "Red Component" : 1,
@@ -249,5 +247,5 @@
   "Visual Bell" : true,
   "ASCII Ligatures" : false,
   "Thin Strokes" : 0,
-  "Custom Directory" : "Advanced"
+  "Custom Directory" : "No"
 }
