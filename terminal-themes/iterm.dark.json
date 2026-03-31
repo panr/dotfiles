@@ -1,0 +1,253 @@
+{
+  "Ansi 5 Color" : {
+    "Red Component" : 0.73640710115432739,
+    "Color Space" : "P3",
+    "Blue Component" : 0.76026934385299683,
+    "Alpha Component" : 1,
+    "Green Component" : 0.40297403931617737
+  },
+  "Working Directory" : "\/Users\/radek\/Documents\/Git",
+  "Prompt Before Closing 2" : false,
+  "Selected Text Color" : {
+    "Green Component" : 0,
+    "Red Component" : 0,
+    "Blue Component" : 0
+  },
+  "Rows" : 51,
+  "Ansi 11 Color" : {
+    "Red Component" : 0.99607843137254903,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40392156862745099,
+    "Alpha Component" : 1,
+    "Green Component" : 0.85882352941176465
+  },
+  "Use Italic Font" : true,
+  "Foreground Color" : {
+    "Red Component" : 0.83154296875,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.83154296875,
+    "Alpha Component" : 1,
+    "Green Component" : 0.83154296875
+  },
+  "Right Option Key Sends" : 0,
+  "Character Encoding" : 4,
+  "Selection Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.75813239812850952,
+    "Alpha Component" : 1,
+    "Green Component" : 0.88519260621615103
+  },
+  "Blend" : 0.050000000000000003,
+  "Mouse Reporting" : true,
+  "Cursor Boost" : 0,
+  "Ansi 4 Color" : {
+    "Red Component" : 0,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.6201934814453125
+  },
+  "Non-ASCII Anti Aliased" : true,
+  "Sync Title" : false,
+  "Disable Window Resizing" : true,
+  "Description" : "Default",
+  "Close Sessions On End" : true,
+  "Jobs to Ignore" : [
+    "rlogin",
+    "ssh",
+    "slogin",
+    "telnet"
+  ],
+  "Non-ASCII Ligatures" : false,
+  "Scrollback Lines" : 0,
+  "Enable Triggers in Interactive Apps" : false,
+  "Hide After Opening" : false,
+  "Flashing Bell" : true,
+  "Cursor Guide Color" : {
+    "Red Component" : 0.70213186740875244,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 0.25,
+    "Green Component" : 0.9268307089805603
+  },
+  "BM Growl" : true,
+  "AWDS Window Directory" : "\/Users\/radek\/git\/",
+  "Icon" : 0,
+  "Ansi 3 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 1,
+    "Green Component" : 0.80859375
+  },
+  "Use Non-ASCII Font" : true,
+  "Shortcut" : "",
+  "Link Color" : {
+    "Red Component" : 0,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.8024444580078125,
+    "Alpha Component" : 1,
+    "Green Component" : 0.4322662353515625
+  },
+  "Background Image Location" : "",
+  "Bold Color" : {
+    "Green Component" : 1,
+    "Red Component" : 1,
+    "Blue Component" : 1
+  },
+  "Unlimited Scrollback" : true,
+  "Custom Command" : "No",
+  "AWDS Tab Option" : "Recycle",
+  "Title Components" : 7,
+  "Keyboard Map" : {
+
+  },
+  "Ansi 14 Color" : {
+    "Green Component" : 1,
+    "Red Component" : 0.3333333432674408,
+    "Blue Component" : 1
+  },
+  "Ansi 2 Color" : {
+    "Red Component" : 0,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 1,
+    "Green Component" : 0.8958740234375
+  },
+  "Send Code When Idle" : false,
+  "ASCII Anti Aliased" : true,
+  "Tags" : [
+
+  ],
+  "Ansi 9 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40569943189620972,
+    "Alpha Component" : 1,
+    "Green Component" : 0.380645751953125
+  },
+  "Use Bold Font" : true,
+  "Silence Bell" : false,
+  "Ansi 12 Color" : {
+    "Red Component" : 0.40423583984375,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.746734619140625
+  },
+  "Window Type" : 0,
+  "Allow Title Reporting" : false,
+  "Use Bright Bold" : true,
+  "Cursor Text Color" : {
+    "Red Component" : 0,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 1,
+    "Green Component" : 0
+  },
+  "Default Bookmark" : "No",
+  "Cursor Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 1,
+    "Green Component" : 0.72271728515625
+  },
+  "Ansi 1 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.2973785400390625,
+    "Alpha Component" : 1,
+    "Green Component" : 0.187530517578125
+  },
+  "Name" : "Default",
+  "Blinking Cursor" : false,
+  "Guid" : "4B37F321-6DDF-48FD-ABFB-73BA79F0283D",
+  "Idle Code" : 0,
+  "Ansi 10 Color" : {
+    "Red Component" : 0.2775421142578125,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40609359741210938,
+    "Alpha Component" : 1,
+    "Green Component" : 0.98006147146224976
+  },
+  "Ansi 8 Color" : {
+    "Green Component" : 0.3333333432674408,
+    "Red Component" : 0.3333333432674408,
+    "Blue Component" : 0.3333333432674408
+  },
+  "Badge Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 0.5,
+    "Green Component" : 0.1491314172744751
+  },
+  "Ambiguous Double Width" : false,
+  "Blur Radius" : 12.491690157860823,
+  "Ansi 0 Color" : {
+    "Green Component" : 0,
+    "Red Component" : 0,
+    "Blue Component" : 0
+  },
+  "AWDS Pane Directory" : "",
+  "Blur" : false,
+  "Normal Font" : "InputMono-Regular 13",
+  "Vertical Spacing" : 1.0600000000000001,
+  "Use Underline Color" : false,
+  "Ansi 7 Color" : {
+    "Green Component" : 0.73333334922790527,
+    "Red Component" : 0.73333334922790527,
+    "Blue Component" : 0.73333334922790527
+  },
+  "AWDS Tab Directory" : "",
+  "AWDS Pane Option" : "Recycle",
+  "Command" : "",
+  "Terminal Type" : "xterm-256color",
+  "Horizontal Spacing" : 1,
+  "Tab Color" : {
+    "Red Component" : 0,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 1,
+    "Green Component" : 0
+  },
+  "Only The Default BG Color Uses Transparency" : false,
+  "Option Key Sends" : 0,
+  "Minimum Contrast" : 0,
+  "Ansi 15 Color" : {
+    "Green Component" : 1,
+    "Red Component" : 1,
+    "Blue Component" : 1
+  },
+  "Open Toolbelt" : false,
+  "Ansi 6 Color" : {
+    "Red Component" : 0,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.8315277099609375,
+    "Alpha Component" : 1,
+    "Green Component" : 0.8008880615234375
+  },
+  "Transparency" : 0,
+  "Background Color" : {
+    "Green Component" : 0,
+    "Red Component" : 0,
+    "Blue Component" : 0
+  },
+  "Screen" : -1,
+  "AWDS Window Option" : "Yes",
+  "Initial Use Transparency" : false,
+  "Non Ascii Font" : "BlexMonoNerdFontComplete- 14",
+  "Ansi 13 Color" : {
+    "Green Component" : 0.3333333432674408,
+    "Red Component" : 1,
+    "Blue Component" : 1
+  },
+  "Columns" : 140,
+  "Use Tab Color" : false,
+  "Visual Bell" : true,
+  "ASCII Ligatures" : false,
+  "Thin Strokes" : 0,
+  "Custom Directory" : "Advanced"
+}
